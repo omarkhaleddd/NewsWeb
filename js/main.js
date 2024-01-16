@@ -30,7 +30,7 @@ general[0].addEventListener('click',function(){
 
 //Ajax => Asynchronous Javascript And Xml
 function getNews(c,region,query,size){
-    xhttp.open('GET',`https://newsapi.org/v2/top-headlines?category=${c}${size==null?'':'&pageSize=' + size }${region==null?'':'&country=' + region }${query==null?'':'&q=' + query }&apiKey=e15f10fdf1414a348b772e97440bef11`);
+    xhttp.open('GET',`https://newsapi.org/v2/top-headlines?category=${c}${size==null?'':'&pageSize=' + size }${region==null?'':'&country=' + region }${query==null?'':'&q=' + query }&apiKey=ae61abc072634970b9df673ae69a83d2`);
     xhttp.send();
 
     items = []
