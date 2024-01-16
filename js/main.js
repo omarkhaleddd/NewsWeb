@@ -69,7 +69,7 @@ function searchBarFunction(query){
     getNews(c,null,query,6);
     displayPosts();
 };
-
+//carousel 
 function carousel(){
     getNews(c,null,null,3);
     displayCarousel();
