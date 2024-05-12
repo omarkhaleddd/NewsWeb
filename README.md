@@ -1,4 +1,4 @@
-# newsWeb Project
+# NewsWeb Project
 
 This repository contains a project focusing on practicing JavaScript concepts such as Ajax requests, localStorage usage, DOM manipulation, and event listeners. The project uses the News API to fetch news articles and display them dynamically on a webpage.
 
